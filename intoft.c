@@ -11,6 +11,6 @@ int main(int argc, char** argv) {
         return 1;
     }
     double inches = atof(argv[1]);
-    printf("%d'%d\"", (int)(inches / 12), (int)(inches % 12));
+    printf("%d'%d\"", (int)(inches / 12.0), (int)(inches % 12.0));
     return 0;
 }
